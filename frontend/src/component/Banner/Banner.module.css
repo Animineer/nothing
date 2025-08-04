@@ -1,0 +1,58 @@
+@font-face{
+    font-family:"nothing";
+    src:url("../../assets/font/nothing-font-5x7.otf") format("truetype");
+
+}
+.post{
+    
+    position: relative;
+    width: 100vw;
+    height: 800px;
+    
+}
+.post>img{
+    
+    position: relative;
+    width: 100vw;
+    height: 800px;
+    
+}
+
+.banner_main{
+    position: absolute;
+    top: 76%;
+    left: 37%;
+    
+ 
+    display: flex;
+    
+    width: 400px;
+    height: 150px;
+    background-color:rgba(128, 128, 128, 0.747);
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.banner_left{
+    margin: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.banner_left h5{
+ font-family: "nothing",sans-serif;
+}
+.banner_right p{
+    background-color:white;
+    border-radius: 50px;
+    width: 45px;
+    padding-left: 7px;
+    position: relative;
+    left: 50px;
+    bottom: 20px;
+   
+}
+.banner_right img{
+    margin-top: 10px;
+    height: 120px;
+    
+}
