@@ -1,5 +1,5 @@
 //nothing-phone
-import phone_3 from "./phones/nothing/"
+
 import phone_3_black from "./phones/nothing/Phone-3-white.png"
 import phone_3 from "./phones/nothing/Phone-3-black.png"
 
@@ -14,7 +14,7 @@ import phone_2a_white from "./phones/nothing/Phone-2a-white.png"
 import phone_2a_black from "./phones/nothing/Phone-2a-black.png"
 
 import phone_2a_plus_grey from "./phones/nothing/Phone-2a-Plus-grey.png"
-import phone_2a_milkwhite from "./phones/nothing/Phone-2a-Plus-milk.png"
+import phone_2a_milkwhite from "./phones/nothing/Phone-2a-milk.png"
 import phone_2a_plus_black from "./phones/nothing/Phone-2a-Plus-Black.png"
 
 //cmf-phone id-12-18
@@ -45,7 +45,7 @@ import cmf_Buds_2_green from "./earphones/buds/CMF-Buds-2-case-darkgrey.png"
 import cmf_Buds_2_black from "./earphones/buds/CMF-Buds-2-case-lightgreen.png"
 import cmf_Buds_2_orange from "./earphones/buds/CMF-Buds-2-case-orange.png"
 
-import cmf_Buds_2_Plus_blue from "./earphones/buds/CMF-Buds-2--Plus-case-blue.png"
+import cmf_Buds_2_Plus_blue from "./earphones/buds/CMF-Buds-2-Plus-case-blue.png"
 import cmf_Buds_2_Plus_white from "./earphones/buds/CMF-Buds-2-Plus-case-lightgrey.png"
 // import phone_3 from "./earphones/buds/CMF-Buds-2-Plus-case-orange.png"
 
@@ -53,7 +53,7 @@ import cmf_Buds_2a_black from "./earphones/buds/CMF-Buds-2a-case-lightgrey.png"
 import cmf_Buds_2a_white from "./earphones/buds/CMF-Buds-2a-case-black.png"
 import cmf_Buds_2a_orange from "./earphones/buds/CMF-Buds-2a-case-orange.png"
 
-import cmf_Buds_2pro_white from "./earphones/buds/CMF-Buds-Pro-2-case-black.png"
+import cmf_Buds_2pro_black from "./earphones/buds/CMF-Buds-Pro-2-case-black.png"
 import cmf_Buds_2pro_blue from "./earphones/buds/CMF-Buds-Pro-2-case-blue.png"
 import cmf_Buds_2pro_white from "./earphones/buds/CMF-Buds-Pro-2-case-lightgrey.png"
 import cmf_Buds_2pro_orange from "./earphones/buds/CMF-Buds-Pro-2-case-orange.png"
@@ -63,15 +63,15 @@ import cmf_watch_3pro_white from "./watches/CMF-Watch-3-Pro-dark-grey.png"
 import cmf_watch_3pro_black from "./watches/CMF-Watch-3-Pro-light-grey.png"
 import cmf_watch_3pro_orange from "./watches/CMF-Watch-3-Pro-Orange.png"
 
-import cmf_watch_2pro_black from "./watches/CMF-Watch-2-Pro-Black.png"
-import cmf_watch_2pro_blue from "./watches/CMF-Watch-2-Pro-Blue.png"
-import cmf_watch_2pro_white from "./watches/CMF-Watch-2-Pro-Grey.png"
+import cmf_watch_2pro_black from "./watches/CMF-Watch-Pro-2-Black.png"
+import cmf_watch_2pro_blue from "./watches/CMF-Watch-Pro-2-Blue.png"
+import cmf_watch_2pro_white from "./watches/CMF-Watch-Pro-2-Grey.png"
 // import phone_3 from "./watches/CMF-Watch-2-Pro-Orange.png"
 
 
 //accesories 44-57
 import adapter_white from "./accessories/AdapterUK_HK.png"
-import adapter_black_65 from "./accessories/CMF-Power-65-_ UK.png"
+import adapter_black_65 from "./accessories/CMF-Power-65-_UK.png"
 import adapter_black_100 from "./accessories/CMF-Power-100-GAN-_UK.png"
 import adapter_black_140 from "./accessories/CMF-Power-140.png"
 
@@ -100,7 +100,7 @@ import phone_2a_plus_screenprotecter from "./accessories/Phone-2a-Screen-protect
 
 
 
-let data=[
+ let all_data=[
 
 {
     id:1,
@@ -205,13 +205,13 @@ let data=[
     price:219,
     category:"smartphone",
 },
-{
-    id:14,
-    image:cmf_phone_2pro_blue,
-    model:"CMF Phone 2 Pro",
-    price:219,
-    category:"smartphone",
-},
+// {
+//     id:14,
+//     image:cmf_phone_2pro_blue,
+//     model:"CMF Phone 2 Pro",
+//     price:219,
+//     category:"smartphone",
+// },
 {
     id:15,
     image:cmf_phone_2pro_black,
@@ -604,4 +604,6 @@ let data=[
     model:"CMF Phone Lanyard",
     price:19,
     category:"accessories",
-}]
+}];
+
+export default all_data
