@@ -3,7 +3,7 @@ import style from "./Banner.module.css"
 import phone_2a from '../../assets/phones/nothing/phone-2a-milk.png'
 // import banner_1 from "../../assets/posters/banner_2.jpg"
 export const Banner = (props) => {
-  console.log(props)
+  // console.log(props)
   return (
     <>
     <div className={style.post}><img  src={props.image} alt="" />

@@ -1,6 +1,7 @@
 
 import { useContext } from 'react'
 import { allContext } from '../../context/ShopContext'
+import Item from '../../Item'
 
 function ProductCategory() {
 
@@ -12,7 +13,17 @@ function ProductCategory() {
   
   return (
   
-    <div></div>
+    <div>
+      {
+        all.map((item,i)=>{
+           if(props.category===item.category){
+          return(
+           <Item key={i} id={item.id} image={item.image} model={item.model} price={item.price} ></Item>
+          )}
+        })
+      }
+
+    </div>
   
   )
 
