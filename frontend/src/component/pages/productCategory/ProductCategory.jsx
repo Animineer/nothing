@@ -2,8 +2,11 @@
 import { useContext } from 'react'
 import { allContext } from '../../context/ShopContext'
 import Item from '../../Item'
+import { useParams } from "react-router-dom";
+
 
 function ProductCategory() {
+  const { category } = useParams(); 
 
   const all=useContext(allContext)
 
@@ -14,16 +17,20 @@ function ProductCategory() {
   return (
   
     <div>
-      {
-        all.map((item,i)=>{
-           if(props.category===item.category){
-          return(
-           <Item key={i} id={item.id} image={item.image} model={item.model} price={item.price} ></Item>
-          )}
-        })
-      }
-
+      
+        {all.filter(item => item.category === category).map((item, i) => (
+          <Item
+            key={i}
+            id={item.id}
+            image={item.image}
+            model={item.model}
+            price={item.price}
+          />
+        ))}
     </div>
+      
+
+    
   
   )
 

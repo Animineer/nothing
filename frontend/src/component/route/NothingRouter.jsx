@@ -1,19 +1,19 @@
-import { Children } from "react";
+// import { Children } from "react";
 import App from "../../App";
 import { Homepage } from "../pages/homepage/Homepage";
 import ProductCategory from "../pages/productCategory/ProductCategory";
-
+import {createBrowserRouter} from "react-router-dom"
 export const NothingRouter=createBrowserRouter([{
     
         path:"/",
-        Element:<App></App>,  
+        element:<App/>,  
         children:[{
-            path:"/Home",
-            Element:<Homepage></Homepage>,
+            path:"Home",
+            element:<Homepage/>,
         },
         {
-            path:"/Category",
-            Element:<ProductCategory></ProductCategory>,
+            path:"category/:category",
+            element:<ProductCategory/>,
 
         }]
 

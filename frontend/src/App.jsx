@@ -1,7 +1,10 @@
+import { Outlet } from 'react-router-dom';
 import './App.css'
+import { Footer } from './component/footer/Footer';
+import Header from './component/header/Header';
 
-import { Homepage } from './component/pages/homepage/Homepage'
-import ProductCategory from './component/pages/productCategory/ProductCategory.jsx';
+// import { Homepage } from './component/pages/homepage/Homepage'
+// import ProductCategory from './component/pages/productCategory/ProductCategory.jsx';
 
 
 
@@ -10,9 +13,11 @@ function App() {
 
   return (
     <>
-   
-    <ProductCategory></ProductCategory>
-    <Homepage></Homepage>
+    <Header></Header>
+    
+    <Outlet/>
+    <Footer></Footer>
+    
     </>
   )
 }

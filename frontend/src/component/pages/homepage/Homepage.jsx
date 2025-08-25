@@ -33,7 +33,7 @@ import Header from '../../header/Header'
 export const Homepage = () => {
   return (
     <div className={style.homepage_main}>
-     <Header></Header>
+    
       
       {/* <img src={banner_1} alt="" /> */}
       {/* <Banner words="Come to Play" phone="phone (3)" image="../../assets/posters/banner_1.jpg"></Banner> */}
@@ -49,7 +49,7 @@ export const Homepage = () => {
       <Banner words="Let's play " phone=" ear (a)" image2={ear_a} image={Banner_9}></Banner>
       <Banner words="Extraordinary " phone=" phone (2a) plus" image2={phone_2a_plus} image={Banner_10}></Banner>
       <Banner words="Powerfully unique " phone="phone (2a) " image2={phone_2a} image={Banner_11}></Banner> 
-      <Footer></Footer>
+      
     </div>
   )
 }
