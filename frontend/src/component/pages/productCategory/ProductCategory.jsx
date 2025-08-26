@@ -1,7 +1,7 @@
 
 import { useContext } from 'react'
 import { allContext } from '../../context/ShopContext'
-import Item from '../../Item'
+import Item from '../../item/Item'
 import { useParams } from "react-router-dom";
 import style from "./ProductCategory.module.css"
 
