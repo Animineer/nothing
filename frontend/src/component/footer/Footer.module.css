@@ -3,20 +3,20 @@
 /* footer -1 */
 
 .mainfooter{
+
     width:100vw;
     display: flex;
     justify-content: space-between;
 }
 .last_ul1{
     display: flex;
-    
+    gap: 10px;
     justify-content: space-around;
 }
 .last_ul2{
     display: flex;
 }
 .last_ul1>li{
-    padding: 5px;
     font-size: small;
 }
 
@@ -50,11 +50,19 @@
 }
 
 /* footer-1 */
-
+.f1_main, .f1_main h3{
+    margin: 20px 0;
+}
 .f1_main h3{
+    color: white;
     text-align: center;
     font-family: "nothing",sans-serif;
 }
+.f1_link{
+color: white;
+text-decoration: none;
+}
+   
 
 /* all footer group */
 

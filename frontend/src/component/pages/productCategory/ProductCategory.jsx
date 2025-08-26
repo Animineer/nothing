@@ -18,8 +18,10 @@ function ProductCategory() {
   
   return (
   
+    <>
+    <h1>{category}</h1>
     <div className={style.ProductCategory_main}>
-      <h3>{category}</h3>
+      
       <div className={style.ProductCategory_sub}>
         {all.filter(item => item.category === category).map((item, i) => (
           <Item
@@ -32,6 +34,7 @@ function ProductCategory() {
           
         ))}</div>
     </div>
+    </>
       
 
     
