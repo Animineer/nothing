@@ -4,6 +4,7 @@ import menu from "../../assets/icons/menu.svg"
 import cart from "../../assets/icons/cart.svg"
 import logo from "../../assets/logo.png"
 import { Link } from 'react-router-dom'
+import { Footer_1 } from '../footer/Footer_1'
 
 
 
@@ -20,6 +21,9 @@ const Header = () => {
           <img className={style.cart} src={cart} alt="" />
         </div>
         <div className={style.menu_bar}>
+
+        </div>
+        <div className={style.hidmenu}>
 
         </div>
       </div>

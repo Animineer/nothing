@@ -21,6 +21,18 @@
     cursor: pointer;
 }
 .logo{
+    margin-top: 10px;
     height: 30px;
     margin-left: 35px;
+}
+.hidmenu{
+     position: absolute;
+    top:8px;
+    right: 35%;
+    z-index: 5;
+    background-color: rgba(128, 128, 128, 0.747);
+    width: 400px;
+    height: 575px;
+    border-radius: 12px;
+
 }
