@@ -8,7 +8,8 @@ export const NothingRouter=createBrowserRouter([{
         path:"/",
         element:<App/>,  
         children:[{
-            path:"Home",
+            // path:"Home",
+            index: true,
             element:<Homepage/>,
         },
         {

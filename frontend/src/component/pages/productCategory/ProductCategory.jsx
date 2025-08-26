@@ -3,6 +3,7 @@ import { useContext } from 'react'
 import { allContext } from '../../context/ShopContext'
 import Item from '../../Item'
 import { useParams } from "react-router-dom";
+import style from "./ProductCategory.module.css"
 
 
 function ProductCategory() {
@@ -14,10 +15,12 @@ function ProductCategory() {
   //always console the value to check wheter it is passed or not
   
   
+  
   return (
   
-    <div>
-      
+    <div className={style.ProductCategory_main}>
+      <h3>{category}</h3>
+      <div className={style.ProductCategory_sub}>
         {all.filter(item => item.category === category).map((item, i) => (
           <Item
             key={i}
@@ -26,7 +29,8 @@ function ProductCategory() {
             model={item.model}
             price={item.price}
           />
-        ))}
+          
+        ))}</div>
     </div>
       
 

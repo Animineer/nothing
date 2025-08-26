@@ -12,8 +12,12 @@
     border-radius: 12px;
 
 }
-.main img{
+.menu, .cart{
     padding: 10px;
     width: 35px;
     cursor: pointer;
+}
+.logo{
+    height: 30px;
+    margin-left: 35px;
 }

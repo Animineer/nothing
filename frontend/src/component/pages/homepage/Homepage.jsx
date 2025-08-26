@@ -1,5 +1,5 @@
 import React from 'react'
-import {Footer}  from '../../footer/Footer'
+// import {Footer}  from '../../footer/Footer'
 import  {Banner}  from '../../Banner/Banner'
 import style from "./Homepage.module.css"
 import Banner_1 from "../../../assets/posters/banner_1.jpg"
@@ -26,7 +26,8 @@ import Headphone_1 from "../../../assets/earphones/headphones/Headphone1-white.p
 import ear_open from "../../../assets/earphones/ear-open/Ear-open-white.png"
 import ear from "../../../assets/earphones/ear/Ear-white.png"
 import ear_a from "../../../assets/earphones/ear/Ear-a-yellow.png"
-import Header from '../../header/Header'
+// import Header from '../../header/Header'
+import { Outlet } from 'react-router-dom'
 
 
 
@@ -49,7 +50,7 @@ export const Homepage = () => {
       <Banner words="Let's play " phone=" ear (a)" image2={ear_a} image={Banner_9}></Banner>
       <Banner words="Extraordinary " phone=" phone (2a) plus" image2={phone_2a_plus} image={Banner_10}></Banner>
       <Banner words="Powerfully unique " phone="phone (2a) " image2={phone_2a} image={Banner_11}></Banner> 
-      
+      <Outlet/>
     </div>
   )
 }
